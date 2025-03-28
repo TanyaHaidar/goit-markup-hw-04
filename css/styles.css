@@ -84,11 +84,11 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item.current {
+.nav-link.current {
     position: relative;
 }
 
-.nav-item.current::after {
+.nav-link.current::after {
     content: '';
     position: absolute;
     left: 0;
@@ -143,6 +143,12 @@ img {
     padding: 188px 0;
     align-items: center;
     background: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
 }
 
 .title-subtitle {
@@ -172,6 +178,7 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .nav-link:hover {
@@ -215,6 +222,18 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
+.iteam-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    width: 264px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
 .power-subtitle {
     margin-bottom: 8px;
     font-weight: 500;
@@ -248,6 +267,7 @@ img {
     background-color:#ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .taste-title {
