@@ -128,7 +128,7 @@ img {
 
 .nav-link:hover,
 .nav-link:focus,
-.nav-item.current {
+.nav-link.current {
     color: #404bbf;
 }
 
@@ -378,4 +378,28 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.footer-social {
+    display: flex;
+    align-items: baseline;
+}
+
+.media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.social-nav {
+    width: 40px;
+    height: 40px;
 }
